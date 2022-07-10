@@ -1,0 +1,257 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.wraper {
+    display: flex;
+    max-width: 1520px;
+    margin: 0 auto;
+}
+.black {
+    background-color: #060200;
+    max-width: 630px;
+
+    padding: 10px;
+}
+.main__black{
+    flex: 1 0 auto;
+}
+.white {
+    background-color: #D8D8D8;
+    height: 100%;
+    flex-grow: 1;
+    padding: 0 10px 0 10px;
+}
+.black_container {
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    margin: 50px;
+    max-width: 75%;
+    max-height: 75%;
+    align-items: center;
+    border-radius: 100px;
+}
+.about {
+    margin: 30px 0 0 0;
+    color: #c2c2c2;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: #C2C2C2 solid;
+    padding-bottom: 10px;
+}
+.about__text {
+    margin-top: 30px;
+    color: #c2c2c2;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+}
+.contacts {
+    margin-top: 50px;
+    color: #c2c2c2;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: left;
+    border-bottom: #C2C2C2 solid;
+    padding-bottom: 10px;
+}
+.contacts__text {
+    margin-top: 25px;
+    color: #c2c2c2;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.conect__number {
+    color: #c2c2c2;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.number__logo {
+    color: #c2c2c2;
+}
+.number__phone {
+    color: #c2c2c2;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 52px;
+}
+.conect__adress {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.conect__location {
+    color: #c2c2c2;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 52px;
+}
+.conect__email {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.conect__mail {
+    color: #c2c2c2;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 52px;
+}
+.pro_skills {
+    margin-top: 2rem;
+    color: #c2c2c2;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: #C2C2C2 solid;
+    padding-bottom: 10px;
+}
+.skills {
+    display: flex; 
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.program {
+    margin-right: 40px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.program:nth-child(4){
+    margin-right: 45;
+}
+.footer {
+    flex: 0 0 auto;
+}
+.footer__black {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.white__container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.header__title {
+    margin-top: 117px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first_name {
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.last_name {
+    color: #797979;
+    font-size: 2.25rem;
+    text-transform: uppercase;
+}
+.position {
+    font-size: 1.75rem;
+    text-transform: uppercase;
+}
+.education {
+    margin-top: 130px;
+}
+.edication__tittle {
+    color: #3D3838;
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: #797979 solid;
+    background: url(/img/icons/education.png)no-repeat left;
+    line-height:50px;
+    padding-left: 50px;
+}
+
+.education__block {
+    display: flex;
+    justify-content: space-between;
+}
+.education__block_text {
+    padding: 20px 10px 0 0;
+    font-size: 1rem;
+    max-width: 700px;
+}
+
+.university {
+    font-size: 1.2rem;;
+    font-weight: 600;
+}
+.education__block_data {
+    padding-top: 20px;
+    text-align: center;
+}
+.work__tittle {
+    color: #3D3838;
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: #797979 solid;
+    background: url(/img/icons/wokr.png)no-repeat left;
+    line-height:50px;
+    padding-left: 50px;
+}
+.work_experience {
+    margin-top: 78px;
+}
+.my_hobbies {
+    margin-top: 70px;
+    padding-bottom: 106px;
+}
+.hobbies {
+    line-height: 1.5;
+}
+.comfy {
+    line-height: 1.5;   
+}
+@media screen and (max-width: 425px) {
+    .wraper {
+        display: flex;
+        flex-direction: column;
+    }
+    .black {
+
+    }
+    .black_container {
+        
+    }
+    * {
+        font-size: 12px;
+    }
+
+    .program:last-child{
+        margin-right: 0;
+    }
+   }
